@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: lightcoral;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(164, 27, 27);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: plum;
+    color: purple;
+}
+
+.topnav a:active {
+    background-color: skyblue;
+    color: blue;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.slider {
+    display: none;
+    height: 100%;
+    width: 50%;
+}
+
+footer {
+    background-color: darkgray;
+    color: rgb(70, 66, 66);
+    padding: 40px 0 20px;
+}
+
+.footer-contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.footer-sec {
+    flex: 1 1 250px;
+    margin: 20px;
+}
+
+.footer-sec  h3 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid #8f8d8d;
+    padding-bottom: 5px;
+}
+
+.footer-sec ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-sec ul li {
+    margin: 8px 0;
+}
+
+.footer-sec ul li a {
+    color: rgb(70, 80, 105);
+    text-decoration: none;
+}
+
+.footer-sec ul li a:hover {
+    color: rgb(35, 50, 148);
+}
+
+.footer-bott {
+    text-align: center;
+    color: #585757;
+    font-size: 14px;
+    border-top: 1px solid #4e4c4c;
+    padding-top: 15px;
+}
